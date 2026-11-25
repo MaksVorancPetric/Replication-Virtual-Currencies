@@ -1,0 +1,7 @@
+variable,mean_2025,mean_2023,p_2025_vs_2023 (Welch t),p_across_2023_arms (ANOVA)
+Age,32.642,34.701,0.004,0.661
+"Female (0/1, missing excluded)",0.571,0.589,0.702,0.657
+Student,0.182,0.144,0.267,0.140
+Risk preference,5.784,5.300,0.021,0.548
+Loot box knowledge,0.642,0.568,0.093,0.887
+Passed both attention checks,0.642,0.575,0.126,0.070

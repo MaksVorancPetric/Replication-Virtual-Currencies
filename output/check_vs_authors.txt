@@ -1,0 +1,9 @@
+Rows: ours 12048, authors 12048, matched 12048
+Max |WTP difference|: 2.95e-08 (authors store floats in single precision)
+treatment            vs authors' treatment_a           : 100.0000% identical
+attention            vs authors' attention_a           : 100.0000% identical
+Age                  vs authors' Age_a                 : 100.0000% identical
+Female_authors       vs authors' Female_a              : 100.0000% identical
+Student              vs authors' Student_a             : 100.0000% identical
+Risk_Taking_Falk_1   vs authors' Risk_Taking_Falk_1_a  : 100.0000% identical
+Knowledge_Loot_box   vs authors' Knowledge_Loot_box_a  : 100.0000% identical

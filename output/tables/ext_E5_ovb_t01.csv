@@ -1,0 +1,7 @@
+,value
+"gamma (risk pref., model 2)",0.0238
+delta (T0.1 minus other arms),0.4846
+gamma*delta (approx. bias if omitted),0.0116
+T0.1 coef. without controls (col 1),0.0585
+T0.1 coef. with controls (col 2),0.0461
+difference col1 - col2,0.0124

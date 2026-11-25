@@ -1,0 +1,7 @@
+lotteries,contrast,estimate,se,p_value
+Risky,T93 - T100,-0.005,0.019,0.800
+Risky,T107 - T100,0.009,0.020,0.644
+Risky,T93 - T107,-0.014,0.024,0.550
+Ambiguous,T93 - T100,0.010,0.024,0.684
+Ambiguous,T107 - T100,0.009,0.022,0.684
+Ambiguous,T93 - T107,0.001,0.027,0.977

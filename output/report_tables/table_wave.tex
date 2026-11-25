@@ -1,0 +1,48 @@
+\begin{table}[!t]
+\centering\footnotesize\renewcommand{\arraystretch}{0.92}
+\caption{Effect of the payment currency within data-collection waves}
+\label{tab:wave}
+\begin{tabular}{lcccc}
+\toprule
+ & Baseline & 2023 waves & June 2023 & January 2023 \\
+ & & + wave FE & only & only \\
+ & (1) & (2) & (3) & (4) \\
+\midrule
+\multicolumn{5}{l}{\emph{Panel A: Risky lotteries}} \\
+T1 (tokens 1:1) & 0.040$^{**}$ & 0.038$^{**}$ & 0.021 & 0.069$^{**}$ \\
+ & (0.017) & (0.017) & (0.019) & (0.031) \\
+T100 (tokens 100:1) & $-$0.005 & $-$0.006 & $-$0.021 & 0.012 \\
+ & (0.016) & (0.016) & (0.019) & (0.031) \\
+T93\&T107 (tokens 93:1, 107:1) & $-$0.003 & $-$0.002 & $-$0.011 &  \\
+ & (0.017) & (0.017) & (0.018) &  \\
+T0.1 (tokens 0.1:1) & 0.046$^{***}$ &  &  &  \\
+ & (0.017) &  &  &  \\
+T100 $-$ T1 & $-$0.045$^{***}$ & $-$0.044$^{***}$ & $-$0.042$^{**}$ & $-$0.057$^{**}$ \\
+ & (0.015) & (0.015) & (0.018) & (0.027) \\
+Observations & 8,217 & 6,589 & 4,873 & 1,716 \\
+Participants & 747 & 599 & 443 & 156 \\
+\midrule
+\multicolumn{5}{l}{\emph{Panel B: Ambiguous lotteries}} \\
+T1 (tokens 1:1) & 0.039$^{*}$ & 0.036$^{*}$ & 0.034 & 0.046 \\
+ & (0.020) & (0.020) & (0.024) & (0.037) \\
+T100 (tokens 100:1) & $-$0.005 & $-$0.006 & $-$0.010 & 0.004 \\
+ & (0.020) & (0.020) & (0.024) & (0.037) \\
+T93\&T107 (tokens 93:1, 107:1) & 0.005 & 0.006 & 0.003 &  \\
+ & (0.020) & (0.021) & (0.023) &  \\
+T0.1 (tokens 0.1:1) & 0.038$^{*}$ &  &  &  \\
+ & (0.022) &  &  &  \\
+T100 $-$ T1 & $-$0.043$^{**}$ & $-$0.042$^{**}$ & $-$0.045$^{**}$ & $-$0.042 \\
+ & (0.018) & (0.018) & (0.022) & (0.033) \\
+Observations & 3,735 & 2,995 & 2,215 & 780 \\
+Participants & 747 & 599 & 443 & 156 \\
+\midrule
+Controls \& lottery FE & Yes & Yes & Yes & Yes \\
+Wave fixed effects & No & Yes & -- & -- \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\begin{minipage}{0.97\textwidth}\footnotesize
+\emph{Notes:} Dependent variable: willingness to pay, divided by the exchange rate (GBP, 0 to 1). Column (1) repeats columns (2) and (4) of Table~\ref{tab:replication}. Column (2) drops the July 2025 wave and adds wave fixed effects. Columns (3) and (4) use only the June and January 2023 waves. T0.1 cannot be estimated in columns (2)--(4) (it is the only treatment in 2025); T93 and T107 were only run in June 2023. All models include individual controls and lottery fixed effects and are estimated by pooled OLS; standard errors clustered at the participant level in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.
+\end{minipage}
+\end{table}
